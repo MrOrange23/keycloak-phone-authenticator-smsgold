@@ -1,2 +1,0 @@
-/subsystem=keycloak-server:list-add(name=providers,value=module:com.hfx.keycloak-phone-authenticator)
-/subsystem=keycloak-server:list-add(name=providers,value=module:com.hfx.keycloak-phone-authenticator-stubbed-sms)

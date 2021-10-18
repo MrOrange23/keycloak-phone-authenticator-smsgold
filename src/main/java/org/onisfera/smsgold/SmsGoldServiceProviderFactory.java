@@ -30,7 +30,7 @@ public class SmsGoldServiceProviderFactory implements SmsServiceProviderFactory 
 
   @Override
   public String getId() {
-    return "StubbedSmsServiceProviderFactory";
+    return "SmsGoldServiceProviderFactory";
   }
 
 }

@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.onisfera.smsgold</groupId>
-  <artifactId>keycloak-phone-authenticator-smsgold-sms</artifactId>
+  <groupId>org.onisfera</groupId>
+  <artifactId>keycloak-phone-authenticator-smsgold</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
 
@@ -17,6 +17,7 @@
 
     <version.keycloak>15.0.2</version.keycloak>
     <version.keycloak.phone.authenticator>1.0.0-SNAPSHOT</version.keycloak.phone.authenticator>
+    <version.apache.http.client>4.5.13</version.apache.http.client>
   </properties>
 
   <dependencies>
@@ -48,6 +49,11 @@
       <groupId>com.hfx</groupId>
       <artifactId>keycloak-phone-authenticator</artifactId>
       <version>${version.keycloak.phone.authenticator}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.httpcomponents</groupId>
+      <artifactId>httpclient</artifactId>
+      <version>${version.apache.http.client}</version>
     </dependency>
   </dependencies>
 
