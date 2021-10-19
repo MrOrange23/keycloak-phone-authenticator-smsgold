@@ -1,4 +1,4 @@
-package org.onisfera.smsgold.config;
+package com.hfx.smsgold.config;
 
 public class SmsConfig {
 

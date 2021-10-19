@@ -1,4 +1,4 @@
-package org.onisfera.smsgold;
+package com.hfx.smsgold;
 
 import com.hfx.keycloak.spi.SmsService;
 import com.hfx.keycloak.spi.SmsServiceProviderFactory;

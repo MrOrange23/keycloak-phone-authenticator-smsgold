@@ -1,2 +1,2 @@
 /subsystem=keycloak-server:list-add(name=providers,value=module:com.hfx.keycloak-phone-authenticator)
-/subsystem=keycloak-server:list-add(name=providers,value=module:org.onisfera.keycloak-phone-authenticator-smsgold)
+/subsystem=keycloak-server:list-add(name=providers,value=module:com.hfx.smsgold.keycloak-phone-authenticator-smsgold)
